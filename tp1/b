@@ -1,0 +1,2 @@
+select ename,sal,deptno from Dept natural join Emp where deptno=10 OR deptno=30 order by sal dec;   
+
